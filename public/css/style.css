@@ -1,0 +1,413 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 1, 2014, 10:44:45 AM
+    Author     : jampajeen
+*/
+
+.tj-coupon-template-panel {
+    width: 400px; height: 200px; display: block;
+}
+
+.tj-reset {
+    animation : none;
+    animation-delay : 0;
+    animation-direction : normal;
+    animation-duration : 0;
+    animation-fill-mode : none;
+    animation-iteration-count : 1;
+    animation-name : none;
+    animation-play-state : running;
+    animation-timing-function : ease;
+    backface-visibility : visible;
+    background : 0;
+    background-attachment : scroll;
+    background-clip : border-box;
+    background-color : transparent;
+    background-image : none;
+    background-origin : padding-box;
+    background-position : 0 0;
+    background-position-x : 0;
+    background-position-y : 0;
+    background-repeat : repeat;
+    background-size : auto auto;
+    border : 0;
+    border-style : none;
+    border-width : medium;
+    border-color : inherit;
+    border-bottom : 0;
+    border-bottom-color : inherit;
+    border-bottom-left-radius : 0;
+    border-bottom-right-radius : 0;
+    border-bottom-style : none;
+    border-bottom-width : medium;
+    border-collapse : separate;
+    border-image : none;
+    border-left : 0;
+    border-left-color : inherit;
+    border-left-style : none;
+    border-left-width : medium;
+    border-radius : 0;
+    border-right : 0;
+    border-right-color : inherit;
+    border-right-style : none;
+    border-right-width : medium;
+    border-spacing : 0;
+    border-top : 0;
+    border-top-color : inherit;
+    border-top-left-radius : 0;
+    border-top-right-radius : 0;
+    border-top-style : none;
+    border-top-width : medium;
+    bottom : auto;
+    box-shadow : none;
+    box-sizing : content-box;
+    caption-side : top;
+    clear : none;
+    clip : auto;
+    color : inherit;
+    columns : auto;
+    column-count : auto;
+    column-fill : balance;
+    column-gap : normal;
+    column-rule : medium none currentColor;
+    column-rule-color : currentColor;
+    column-rule-style : none;
+    column-rule-width : none;
+    column-span : 1;
+    column-width : auto;
+    content : normal;
+    counter-increment : none;
+    counter-reset : none;
+    cursor : auto;
+    direction : ltr;
+    display : inline;
+    empty-cells : show;
+    float : none;
+    font : normal;
+    font-family : inherit;
+    font-size : medium;
+    font-style : normal;
+    font-variant : normal;
+    font-weight : normal;
+    height : auto;
+    hyphens : none;
+    left : auto;
+    letter-spacing : normal;
+    line-height : normal;
+    list-style : none;
+    list-style-image : none;
+    list-style-position : outside;
+    list-style-type : disc;
+    margin : 0;
+    margin-bottom : 0;
+    margin-left : 0;
+    margin-right : 0;
+    margin-top : 0;
+    max-height : none;
+    max-width : none;
+    min-height : 0;
+    min-width : 0;
+    opacity : 1;
+    orphans : 0;
+    outline : 0;
+    outline-color : invert;
+    outline-style : none;
+    outline-width : medium;
+    overflow : visible;
+    overflow-x : visible;
+    overflow-y : visible;
+    padding : 0;
+    padding-bottom : 0;
+    padding-left : 0;
+    padding-right : 0;
+    padding-top : 0;
+    page-break-after : auto;
+    page-break-before : auto;
+    page-break-inside : auto;
+    perspective : none;
+    perspective-origin : 50% 50%;
+    position : static;
+    /* May need to alter quotes for different locales (e.g fr) */
+    quotes : '\201C' '\201D' '\2018' '\2019';
+    right : auto;
+    tab-size : 8;
+    table-layout : auto;
+    text-align : inherit;
+    text-align-last : auto;
+    text-decoration : none;
+    text-decoration-color : inherit;
+    text-decoration-line : none;
+    text-decoration-style : solid;
+    text-indent : 0;
+    text-shadow : none;
+    text-transform : none;
+    top : auto;
+    transform : none;
+    transform-style : flat;
+    transition : none;
+    transition-delay : 0s;
+    transition-duration : 0s;
+    transition-property : none;
+    transition-timing-function : ease;
+    unicode-bidi : normal;
+    vertical-align : baseline;
+    visibility : visible;
+    white-space : normal;
+    widows : 0;
+    width : auto;
+    word-spacing : normal;
+    z-index : auto;
+}
+
+.tj-hidden {
+    display: none;
+}
+
+/*
+Fix google map bug with uikit
+*/
+.gm-style img { max-width: none; }
+.gm-style label { width: auto; display: inline; }
+
+
+/*
+Search box in google map
+*/
+
+#map_canvas {
+    height: 100%;
+    margin: 0px;
+    padding: 0px
+}
+.controls {
+    margin-top: 16px;
+    border: 1px solid transparent;
+    border-radius: 2px 0 0 2px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    height: 32px;
+    outline: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+#pac-input {
+    background-color: #fff;
+    padding: 0 11px 0 13px;
+    width: 400px;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    text-overflow: ellipsis;
+}
+
+#pac-input:focus {
+    border-color: #4d90fe;
+    margin-left: -1px;
+    padding-left: 14px;  /* Regular padding-left + 1. */
+    width: 401px;
+}
+
+.pac-container {
+    font-family: Roboto;
+}
+
+#type-selector {
+    color: #fff;
+    background-color: #4d90fe;
+    padding: 5px 11px 0px 11px;
+}
+
+#type-selector label {
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+#target {
+    width: 345px;
+}
+
+/*
+for interactjs
+*/
+.resize {
+    background-color: #29e;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 20px;
+
+
+    /* The width is set in the element's HTML
+     * so that it can be read by the resizing
+     * function
+     */
+}
+
+.resize-container {
+    width: 400px;
+    height: 300px;
+}
+
+#coupon-edit-logo {
+    background-color: #29e;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 5px;
+}
+
+#coupon-edit-logo-preview {
+    /*background-color: #29e;*/
+    font-size: 20px;
+    font-family: sans-serif;
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 5px;
+}
+
+#coupon-edit-text {
+    background-color: #29e;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 5px;
+}
+
+#coupon-edit-text-preview {
+    /*background-color: #29e;*/
+    /*color: white;*/
+    font-size: 20px;
+    font-family: sans-serif;
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 5px;
+}
+
+#coupon-edit-text2 {
+    background-color: #29e;
+    color: white;
+    /*font-size: 20px;*/
+    font-family: sans-serif;
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 5px;
+}
+
+#coupon-edit-text2-preview {
+    /*    background-color: #29e;
+        color: white;*/
+    /*font-size: 20px;*/
+    font-family: sans-serif;
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 5px;
+}
+
+#coupon-edit-addr {
+    background-color: #29e;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 5px;
+}
+
+#coupon-edit-addr-preview {
+    font-size: 20px;
+    font-family: sans-serif;
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 5px;
+}
+
+/*
+* Input file
+*/
+.custom-file-input {
+    visibility: hidden;
+    width: 0;
+    position: relative;
+}
+.custom-file-input::before {
+    content: 'Browse file to upload';
+    display: inline-block;
+    background: -webkit-linear-gradient(top, #f9f9f9, #e3e3e3);
+    border: 1px solid #999;
+    border-radius: 3px;
+    padding: 5px 8px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    text-shadow: 1px 1px #fff;
+    /*font-weight: 700;*/
+    font-size: 10pt;
+    visibility: visible;
+    position: absolute;
+}
+.custom-file-input:hover::before {
+    border-color: black;
+}
+.custom-file-input:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+
+
+
+/*
+For pagination
+*/
+.sep{ border-bottom: 1px dashed #DDDDDD; margin: 10px 0;}
+
+.pagination{
+    margin: 5px auto;
+    padding: 12px 0;
+    text-align: center;
+}
+.pagination a{ 
+    border:solid 1px #d2d2d2; 
+    color: #444444;  
+    margin-right:2px; 
+}
+.pagination span{ 
+    border:solid 1px #ddd; 
+    margin-right:2px; 
+}
+.pagination .active{
+    border:solid 1px #e0e0e0; 
+    color:#000; 
+    font-weight:bold;  
+}
+.pagination a:link, .pagination a:visited{
+    padding:6px 10px; 
+    text-decoration:none; 
+}
+.pagination span{ 
+    color:#b6b6b6; 
+    padding:6px 10px; 
+    text-decoration:none; 
+}
+.pagination a:hover{ 
+    border:solid 1px #b2b2b2; 
+}

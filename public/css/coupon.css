@@ -1,0 +1,23 @@
+
+/*
+Coupon Tempalte
+*/  
+.coupon-template-container-1 {
+    padding: 15px; background: #fafafa; color: #444444; border: 1px solid #dddddd; border-radius: 4px; background-color: #ffffff; color: #444444; width: 400px; height: 200px; display: block; position:relative; float: left;
+}
+
+.coupon-template-container-2 {
+    padding: 15px; background: #fafafa; color: #444444; border: 1px solid #dddddd; border-radius: 4px; background-color: #ffffff; color: #444444; width: 400px; height: 200px; display: block; position:relative; float: right;
+}
+
+.coupon-template-logo-1 {
+    position: absolute; top: 0px; left: 0px; width: 120px; height: 120px;
+}
+
+.coupon-template-text-header-1 {
+    position: absolute; top: 0px; right: 20px; margin-left: 20px; margin-top: 0px; width: 180px; height: 120px;
+}
+
+.coupon-template-logo-bottom-1 {
+    position: absolute; top: 130px; left: 0px;width: 400px; height: 80px;
+}
