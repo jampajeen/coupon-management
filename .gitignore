@@ -15,8 +15,8 @@ Thumbs.db
 /public/vendor/*
 !/public/vendor/uikit
 /public/hybridauth
-
+ 
 *.pem
 *.crt
-.nbproject
+/nbproject
 /nbproject/private/
